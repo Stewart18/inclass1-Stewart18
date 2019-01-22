@@ -1,32 +1,43 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
+*.[oa]
+# Compiled Static libraries
+*.a
+*.config
+*.dylib
+*.la
+*.lai
 *.lo
+*.nhdr
+*.nii.gz
+*.nrrd
+# Compiled Object files
 *.o
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
+*.orig
+*.pyc
+*.raw
+*.sample
+*.slo
 # Compiled Dynamic libraries
 *.so
-*.dylib
-*.dll
+*.swp
+*ExternalSources*
+# emacs backups
+*.bak
+*~
+.DS_Store
+.ExternalData_MD5*
+.RData
+.RDataTmp
+.Rhistory
+._*
+.clang_complete
+.emacs.desktop
+.idea
+cmake-build-*
+cmake-travis-*
+.svn
+CMakeCache.txt
+CMakeFiles/*
+crash*
 
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+Testing/Temporary/LastTest.log
